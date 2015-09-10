@@ -7,4 +7,4 @@ Features blog posts, comments, photo and videos uploads.
 
 You can log in via Facebook, Google or simple email.
 
-Backend storage is done via AWs S3.
+Backend storage is done via AWS S3.
