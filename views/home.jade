@@ -1,0 +1,35 @@
+extends layout
+
+block content
+  .row 
+    .col-xs-12
+      h2 Ceci est la page d'accueil
+  if user
+    .row
+      .col-xs-12
+        p vous etes connecté en tant que #{user.profileName}
+        p
+          a(href='/account') Votre Compte
+
+
+  else
+
+
+    .row
+      .col-xs-12.text-center
+        i.fa.fa-question.fa-big
+
+    .row
+      
+      .col-xs-12.col-md-6.col-md-offset-3 
+        h3 Identification
+        a.btn.btn-default.btn-lg.btn-block(href='/login') Se Connecter
+      
+      .col-xs-12.col-md-6.col-md-offset-3 
+        .separator
+
+      .col-xs-12.col-md-6.col-md-offset-3 
+        h3 Créer un compte
+        p Suivez le lien ci-dessous pour créer un compte avec Email/Mot de Passe
+        div          
+          a.btn.btn-success.btn-lg.btn-block(href='/signup') Créer un compte
