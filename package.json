@@ -1,12 +1,12 @@
 {
-  "name": "my-social-app",
+  "name": "mysocialapp",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Christophe Guyot",
   "license": "ISC",
   "dependencies": {
     "async": "^0.9.0",
